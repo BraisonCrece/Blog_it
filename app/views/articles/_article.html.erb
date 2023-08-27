@@ -1,0 +1,7 @@
+<div id="<%= dom_id article %>" data-controller="display">
+  <h1 class="text-4xl mb-4"><%= article.title %></h1>
+  <div data-display-target="articleContent" class="p-3 border-[1px] border-gray-200 rounded-md"></div>
+  <div data-display-target="hiddenContent" id="article_content_show"><%= article.content %></div>
+  <strong>User:</strong>
+  <%= article.user_id %>
+</div>

@@ -1,3 +1,64 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.ce-block__content {
+  min-width: 100% !important;
+}
+
+.codeflask__textarea::-webkit-scrollbar {
+  display: none;
+}
+
+.codeflask__textarea {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+#article_content_show {
+    display: none;
+}
+
+.codex-editor__redactor {
+    padding-bottom: 2rem !important;
+}
+
+.codex-editor {
+    width: 100% !important;
+}
+
+.editorjs-codeFlask_LangDisplay {
+    padding-bottom: 1.3rem !important;
+}
+
+.ce-popover--opened, .ce-popover__overlay, .cdx-search-field__input {
+    z-index: 1 !important;
+}
+
+.codeflask, .codeflask--has-line-numbers::before {
+    z-index: 0 !important;
+}
+
+.ace_editor {
+    line-height: 1.7;
+    border-radius: 10px;
+    padding-bottom: 2rem;
+}
+
+.ace_content, .ace_gutter, .cdx-block {
+    padding: .5rem 0;
+}
+
+.ace_scrollbar, .ace_scrollbar-h {
+    display: none;
+}
+
+.ce-toolbar, .ce-toolbar--opened {
+    width: 100%;
+}
+
+.ace_gutter {
+    z-index: 0;
+}
